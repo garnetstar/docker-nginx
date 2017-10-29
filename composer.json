@@ -1,0 +1,20 @@
+{
+	"name": "vendor/slim",
+	"description": "Description of project Slim.",
+	"authors": [
+		{
+			"name": "jan",
+			"email": "your@email.here"
+		}
+	],
+	"require": {
+		"slim/slim": "3.x-dev",
+		"monolog/monolog": "dev-master"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"": "src/"
+		}
+	}
+}
